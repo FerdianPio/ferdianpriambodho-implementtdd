@@ -20,7 +20,9 @@ namespace MatchPicture.InputRaycast
             var hit = Physics2D.Raycast(worldPosition, Vector2.zero);
             if (hit.collider != null)
             {
-                hit.collider.gameObject.SetActive(false);
+                //hit.collider.gameObject.SetActive(false);
+                IRaycastable raycastTarget = hit.collider.GetComponent<IRaycastable>();
+                raycastTarget?.OnRaycast();
             }
         }
     }

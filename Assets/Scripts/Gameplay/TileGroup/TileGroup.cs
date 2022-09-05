@@ -15,15 +15,24 @@ namespace MatchPicture.TileGroup
         private GameObject[,] gameGrid;
         private SpriteAtlas spriteAtlas;
         public event System.Action onTilesCleared;
+
+        //matching
+        private Tile.Tile[] comparingArray=new Tile.Tile[2];
+
         void Start()
         {
             spriteAtlas = ThemeDatabase.ThemeDatabase.instance.GetSpriteAtlas(); 
             gameGrid = new GameObject[(int)gridSize.x, (int)gridSize.y];
             GenerateGrid(gridSize);
-            //Debug.Log(UnityEngine.Random.Range(1, 10));
             SetRandomSprite();
+
+            foreach(GameObject go in gameGrid)
+            {
+                go.GetComponent<Tile.Tile>().OnTileClicked += TryMatchClickedTiles;
+            }
         }
 
+        #region Generate Grid    
         private void GenerateGrid(Vector2 size)
         {
             for (int i = 0; i < gridSize.x; i++)
@@ -31,6 +40,7 @@ namespace MatchPicture.TileGroup
                 for (int j = 0; j < gridSize.y; j++)
                 {
                     gameGrid[i, j] = Instantiate(gridPrefab, new Vector3(transform.position.x + i, transform.position.y + j, transform.position.z), Quaternion.identity, gameObject.transform);
+                    gameGrid[i, j].GetComponent<Tile.Tile>().SetGridMap(new Vector2Int(i, j));
                 }
             }
             CenterizeGrid(this.gameObject, size);
@@ -53,10 +63,12 @@ namespace MatchPicture.TileGroup
         private void CenterizeGrid(GameObject grid, Vector2 size)
         {
             Vector2 center = GetCenterTile(size);
-            //Debug.Log(center.x);
             grid.transform.position -= new Vector3(center.x, center.y, 0);
         }
 
+        #endregion
+
+        #region Set Sprite
         private void SetRandomSprite()
         {
             List<int> temp = new List<int>();
@@ -82,6 +94,7 @@ namespace MatchPicture.TileGroup
             foreach(GameObject go in gameGrid)
             {
                 go.gameObject.GetComponent<SpriteRenderer>().sprite = spriteAtlas.GetSprite(spriteAtlas.name + "_" + temp[setSprite]);
+                go.gameObject.GetComponent<Tile.Tile>().SetId(temp[setSprite]);
                 setSprite++;
             }
         }
@@ -90,6 +103,38 @@ namespace MatchPicture.TileGroup
         {
             return UnityEngine.Random.Range(0, spriteAtlas.spriteCount);
         }
+
+        #endregion
+
+        #region Matching
+        private void TryMatchClickedTiles(Vector2Int obj)
+        {
+            /*if (comparingArray[0] != null)
+            {
+                comparingArray[1] = gameGrid[obj.x, obj.y].GetComponent<Tile.Tile>();
+                if (comparingArray[0].id == comparingArray[1].id)
+                {
+                    foreach (Tile.Tile t in comparingArray)
+                    {
+                        gameGrid[t.GetGridOnMap().x, t.GetGridOnMap().y].SetActive(false);
+                    }
+                }
+                else
+                {
+                    foreach (Tile.Tile t in comparingArray)
+                    {
+                        gameGrid[t.GetGridOnMap().x, t.GetGridOnMap().y].GetComponent<BoxCollider2D>().enabled=false;
+                    }
+                }
+            }
+
+            else
+            {
+                comparingArray[1] = gameGrid[obj.x, obj.y].GetComponent<Tile.Tile>();
+            }*/
+            gameGrid[obj.x, obj.y].SetActive(false);
+        }
+        #endregion
     }
 
 }

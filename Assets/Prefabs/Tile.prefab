@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8810686390865861252}
   - component: {fileID: 8775577053172276501}
   - component: {fileID: 3959268465178885081}
+  - component: {fileID: -2764108079357775766}
   m_Layer: 0
   m_Name: Tile
   m_TagString: Untagged
@@ -78,7 +79,7 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 0
+  m_DrawMode: 1
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
@@ -105,9 +106,22 @@ BoxCollider2D:
     oldSize: {x: 1, y: 1}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
-    drawMode: 0
+    drawMode: 1
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &-2764108079357775766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2762602336675084297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ee5aa43fb48d6648a75696ab64a61f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gridMap: {x: 0, y: 0}
