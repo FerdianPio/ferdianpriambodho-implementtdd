@@ -2,17 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Tile : MonoBehaviour
+namespace MatchPicture.Tile
 {
-    // Start is called before the first frame update
-    void Start()
+    public class Tile : MonoBehaviour
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: weapon
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: -924942797, guid: d06b27fe810db6e47aa432f6656c555f, type: 3}
+    - {fileID: -1706764443, guid: d06b27fe810db6e47aa432f6656c555f, type: 3}
+    - {fileID: -2070290661, guid: d06b27fe810db6e47aa432f6656c555f, type: 3}
+    - {fileID: -1027886441, guid: d06b27fe810db6e47aa432f6656c555f, type: 3}
+    - {fileID: -1321112463, guid: d06b27fe810db6e47aa432f6656c555f, type: 3}
+    - {fileID: -1806028973, guid: d06b27fe810db6e47aa432f6656c555f, type: 3}
+    - {fileID: -561680609, guid: d06b27fe810db6e47aa432f6656c555f, type: 3}
+    - {fileID: 1344143033, guid: d06b27fe810db6e47aa432f6656c555f, type: 3}
+    - {fileID: 986540948, guid: d06b27fe810db6e47aa432f6656c555f, type: 3}
+    - {fileID: -1621369310, guid: d06b27fe810db6e47aa432f6656c555f, type: 3}
+    - {fileID: 1140485404, guid: d06b27fe810db6e47aa432f6656c555f, type: 3}
+    - {fileID: 160056919, guid: d06b27fe810db6e47aa432f6656c555f, type: 3}
+    - {fileID: -1197507297, guid: d06b27fe810db6e47aa432f6656c555f, type: 3}
+    - {fileID: -440521327, guid: d06b27fe810db6e47aa432f6656c555f, type: 3}
+    - {fileID: -1999172079, guid: d06b27fe810db6e47aa432f6656c555f, type: 3}
+    - {fileID: 249214864, guid: d06b27fe810db6e47aa432f6656c555f, type: 3}
+    - {fileID: -1904208587, guid: d06b27fe810db6e47aa432f6656c555f, type: 3}
+    - {fileID: -1709266851, guid: d06b27fe810db6e47aa432f6656c555f, type: 3}
+    - {fileID: 60590704, guid: d06b27fe810db6e47aa432f6656c555f, type: 3}
+    - {fileID: 1538536993, guid: d06b27fe810db6e47aa432f6656c555f, type: 3}
+    - {fileID: -251465962, guid: d06b27fe810db6e47aa432f6656c555f, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 1344143033, guid: d06b27fe810db6e47aa432f6656c555f, type: 3}
+  - {fileID: -1321112463, guid: d06b27fe810db6e47aa432f6656c555f, type: 3}
+  - {fileID: -1806028973, guid: d06b27fe810db6e47aa432f6656c555f, type: 3}
+  - {fileID: 160056919, guid: d06b27fe810db6e47aa432f6656c555f, type: 3}
+  - {fileID: 1140485404, guid: d06b27fe810db6e47aa432f6656c555f, type: 3}
+  - {fileID: -440521327, guid: d06b27fe810db6e47aa432f6656c555f, type: 3}
+  - {fileID: -1197507297, guid: d06b27fe810db6e47aa432f6656c555f, type: 3}
+  - {fileID: 249214864, guid: d06b27fe810db6e47aa432f6656c555f, type: 3}
+  - {fileID: -1999172079, guid: d06b27fe810db6e47aa432f6656c555f, type: 3}
+  - {fileID: -1709266851, guid: d06b27fe810db6e47aa432f6656c555f, type: 3}
+  - {fileID: -1904208587, guid: d06b27fe810db6e47aa432f6656c555f, type: 3}
+  - {fileID: 1538536993, guid: d06b27fe810db6e47aa432f6656c555f, type: 3}
+  - {fileID: 60590704, guid: d06b27fe810db6e47aa432f6656c555f, type: 3}
+  - {fileID: -251465962, guid: d06b27fe810db6e47aa432f6656c555f, type: 3}
+  - {fileID: 986540948, guid: d06b27fe810db6e47aa432f6656c555f, type: 3}
+  - {fileID: -1621369310, guid: d06b27fe810db6e47aa432f6656c555f, type: 3}
+  - {fileID: -2070290661, guid: d06b27fe810db6e47aa432f6656c555f, type: 3}
+  - {fileID: -1027886441, guid: d06b27fe810db6e47aa432f6656c555f, type: 3}
+  - {fileID: -924942797, guid: d06b27fe810db6e47aa432f6656c555f, type: 3}
+  - {fileID: -1706764443, guid: d06b27fe810db6e47aa432f6656c555f, type: 3}
+  - {fileID: -561680609, guid: d06b27fe810db6e47aa432f6656c555f, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - weapon_7
+  - weapon_4
+  - weapon_5
+  - weapon_11
+  - weapon_10
+  - weapon_13
+  - weapon_12
+  - weapon_15
+  - weapon_14
+  - weapon_17
+  - weapon_16
+  - weapon_19
+  - weapon_18
+  - weapon_20
+  - weapon_8
+  - weapon_9
+  - weapon_2
+  - weapon_3
+  - weapon_0
+  - weapon_1
+  - weapon_6
+  m_RenderDataMap: {}
+  m_Tag: weapon
+  m_IsVariant: 0

@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: fruit
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: -565420942, guid: 7b4b9eb1df2f55441918fe54e898cbb8, type: 3}
+    - {fileID: 489524751, guid: 7b4b9eb1df2f55441918fe54e898cbb8, type: 3}
+    - {fileID: -282038482, guid: 7b4b9eb1df2f55441918fe54e898cbb8, type: 3}
+    - {fileID: 1333397776, guid: 7b4b9eb1df2f55441918fe54e898cbb8, type: 3}
+    - {fileID: -865120842, guid: 7b4b9eb1df2f55441918fe54e898cbb8, type: 3}
+    - {fileID: 761734279, guid: 7b4b9eb1df2f55441918fe54e898cbb8, type: 3}
+    - {fileID: -19116794, guid: 7b4b9eb1df2f55441918fe54e898cbb8, type: 3}
+    - {fileID: -926210029, guid: 7b4b9eb1df2f55441918fe54e898cbb8, type: 3}
+    - {fileID: -372465577, guid: 7b4b9eb1df2f55441918fe54e898cbb8, type: 3}
+    - {fileID: -1670776716, guid: 7b4b9eb1df2f55441918fe54e898cbb8, type: 3}
+    - {fileID: -1550561078, guid: 7b4b9eb1df2f55441918fe54e898cbb8, type: 3}
+    - {fileID: -1705822268, guid: 7b4b9eb1df2f55441918fe54e898cbb8, type: 3}
+    - {fileID: 1092972107, guid: 7b4b9eb1df2f55441918fe54e898cbb8, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: -1705822268, guid: 7b4b9eb1df2f55441918fe54e898cbb8, type: 3}
+  - {fileID: -1550561078, guid: 7b4b9eb1df2f55441918fe54e898cbb8, type: 3}
+  - {fileID: 1092972107, guid: 7b4b9eb1df2f55441918fe54e898cbb8, type: 3}
+  - {fileID: -372465577, guid: 7b4b9eb1df2f55441918fe54e898cbb8, type: 3}
+  - {fileID: -1670776716, guid: 7b4b9eb1df2f55441918fe54e898cbb8, type: 3}
+  - {fileID: -282038482, guid: 7b4b9eb1df2f55441918fe54e898cbb8, type: 3}
+  - {fileID: 1333397776, guid: 7b4b9eb1df2f55441918fe54e898cbb8, type: 3}
+  - {fileID: -565420942, guid: 7b4b9eb1df2f55441918fe54e898cbb8, type: 3}
+  - {fileID: 489524751, guid: 7b4b9eb1df2f55441918fe54e898cbb8, type: 3}
+  - {fileID: -19116794, guid: 7b4b9eb1df2f55441918fe54e898cbb8, type: 3}
+  - {fileID: -926210029, guid: 7b4b9eb1df2f55441918fe54e898cbb8, type: 3}
+  - {fileID: -865120842, guid: 7b4b9eb1df2f55441918fe54e898cbb8, type: 3}
+  - {fileID: 761734279, guid: 7b4b9eb1df2f55441918fe54e898cbb8, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - fruit_11
+  - fruit_10
+  - fruit_12
+  - fruit_8
+  - fruit_9
+  - fruit_2
+  - fruit_3
+  - fruit_0
+  - fruit_1
+  - fruit_6
+  - fruit_7
+  - fruit_4
+  - fruit_5
+  m_RenderDataMap: {}
+  m_Tag: fruit
+  m_IsVariant: 0
